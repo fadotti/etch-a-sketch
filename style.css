@@ -15,10 +15,13 @@ body {
     display: flex;
 }
 
+#grid-container {
+    margin: auto;
+}
+
 .grid-square {
-    border: solid 3px;
+    border-style: solid;
     border-color: white;
-    padding: 10px;
     background-color: red;
 }
 
